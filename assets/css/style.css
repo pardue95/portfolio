@@ -20,10 +20,14 @@ body {
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-wrap: wrap;
   align-items: flex-start;
   height: 50%;
+}
+
+#bio {
+
 }
 
 .hero h2 {
@@ -102,6 +106,10 @@ section {
   display: flex;
     padding: 60px;
   padding: 60px;
+}
+
+section.hero {
+
 }
 
 .section-title {
