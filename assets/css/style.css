@@ -3,8 +3,13 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --main-color: #213a11;
+  --second-color: #49fc38;
+}
 body {
-  color: #39a6b2;
+  color: var(--second-color);
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -22,12 +27,13 @@ body {
 }
 
 .hero h2 {
+  display: flex;
   margin: 250px 0 0 500;
 }
 
 header {
   padding: 20px 35px;
-  background-color: #39a6b2;
+  background-color: var(--main-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -37,12 +43,12 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: #fce138;
+  color: var(--second-color);
 }
 
 header a {
   text-decoration: none;
-  color: #fce138;
+  color: var(--second-color)
 }
 
 header nav {
@@ -67,7 +73,7 @@ header nav ul li a {
 
 /* FOOTER STYLES START */
 footer {
-  background: #fce138;
+  background: var(--second-color)
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
@@ -76,7 +82,7 @@ footer {
 }
 
 footer h2 {
-  color: #024e76;
+  color: var(--main-color);
   font-size: 30px;
   margin: 0;
 }
@@ -87,13 +93,28 @@ footer div {
 }
 
 footer a {
-  color: #024e76;
+  color: var(--main-color);
 }
 /* END FOOTER STYLES */
 
 /* STYLE ALL SECTION TAGS */
 section {
+  display: flex;
+    padding: 60px;
   padding: 60px;
 }
 
+.section-title {
+  display: block;
+} 
+
+div {
+  display: flex;
+}
+
+
+header.section-title {
+    border-right: 5px solid red;
+    background: none;
+}
 /* HERO STYLES START */
