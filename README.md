@@ -1,26 +1,11 @@
-## Grading Requirements
-This challenge is graded based on the following criteria:
+## Portfolio
 
-## Technical Acceptance Criteria: 40%
-Satisfies all of the preceding acceptance criteria.
-Deployment: 32%
-Application deployed at live URL.
+Create a portfolio of work to showcase my skills to employers.
 
-Application loads with no errors.
+<https://github.com/pardue95/portfolio>
 
-Application GitHub URL submitted.
+<https://pardue95.github.io/portfolio/>
 
-GitHub repository contains application code.
+![image](https://user-images.githubusercontent.com/85760640/135777875-6a86ecbc-29c3-411d-8c5a-264ebc2cd4c2.png)
 
-##  Application Quality: 15%
-Application resembles the mock-up functionality provided in the Challenge instructions.
-## Repository Quality: 13%
-Repository has a unique name.
 
-Repository follows best practices for file structure and naming conventions.
-
-Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-Repository contains multiple descriptive commit messages.
-
-Repository contains quality readme with description, screenshot, link to deployed application.

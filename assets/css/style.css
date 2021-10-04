@@ -146,30 +146,38 @@ section.large-work {
 }
 
 section.placeHolderOne {
-  background-image: url("../images/pond.jpg");
+  background-image: url("../images/car.jpg");
   background-size: cover;
   background-position: center;
   width: 25em;
 }
 
 section.placeHolderTwo {
-  background-image: url("../images/pond.jpg");
+  background-image: url("../images/stars.jpg");
   background-size: cover;
   background-position: center;
   width: 25em;
 }
 
 section.placeHolderThree {
-  background-image: url("../images/pond.jpg");
+  background-image: url("../images/buff.jpg");
   background-size: cover;
   background-position: center;
   width: 25em;
 }
 
 section.placeHolderFour {
-  background-image: url("../images/pond.jpg");
+  background-image: url("../images/dam.jpg");
   background-size: cover;
   background-position: center;
   width: 25em;
 }
 /* HERO STYLES START */
+
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
