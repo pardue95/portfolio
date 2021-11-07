@@ -138,7 +138,7 @@ header.section-title {
 }
 
 section.large-work {
-  background-image: url("../images/pond.jpg");
+  background-image: url("../images/DrinkNDice.jpg");
   width: 100%;
   height: 60%;
   background-size: cover;
@@ -173,7 +173,6 @@ section.placeHolderFour {
   width: 25em;
 }
 /* HERO STYLES START */
-
 
 @media screen and (max-width: 768px) {
   main,
